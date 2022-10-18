@@ -1275,4 +1275,31 @@ Clique em tentar novamente para escolher uma nova pasta ou cancelar para usar {0
   <data name="messagebox_restartrequired" xml:space="preserve">
     <value>Reinício necessário</value>
   </data>
+  <data name="CoatingMode_NoAction" xml:space="preserve">
+    <value>Nenhuma mudança</value>
+  </data>
+  <data name="CoatingModeAdd" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="CoatingMode_Remove" xml:space="preserve">
+    <value>Retirar</value>
+  </data>
+  <data name="tool_paint_coating_wall_echo" xml:space="preserve">
+    <value>Echo de Parede</value>
+  </data>
+  <data name="tool_paint_coating_wall_illuminant" xml:space="preserve">
+    <value>Iluminante de parede</value>
+  </data>
+  <data name="tool_paint_coating_tile_echo" xml:space="preserve">
+    <value>Eco de azulejo</value>
+  </data>
+  <data name="tool_paint_coating_tile_illuminant" xml:space="preserve">
+    <value>Luminária de azulejo</value>
+  </data>
+  <data name="PaintMode_Coatings" xml:space="preserve">
+    <value>Revestimento</value>
+  </data>
+  <data name="PaintMode_Sprites" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
 </root>

@@ -232,6 +232,33 @@ namespace TEdit.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No Change.
+        /// </summary>
+        public static string CoatingMode_NoAction {
+            get {
+                return ResourceManager.GetString("CoatingMode_NoAction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove.
+        /// </summary>
+        public static string CoatingMode_Remove {
+            get {
+                return ResourceManager.GetString("CoatingMode_Remove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        public static string CoatingModeAdd {
+            get {
+                return ResourceManager.GetString("CoatingModeAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Directory does not appear to contain Terraria Content.
         ///Press retry to pick a new folder or cancel to use {0} as your terraria path..
         /// </summary>
@@ -1016,11 +1043,29 @@ namespace TEdit.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Coating.
+        /// </summary>
+        public static string PaintMode_Coatings {
+            get {
+                return ResourceManager.GetString("PaintMode_Coatings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Liquid.
         /// </summary>
         public static string PaintMode_Liquid {
             get {
                 return ResourceManager.GetString("PaintMode_Liquid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sprite.
+        /// </summary>
+        public static string PaintMode_Sprites {
+            get {
+                return ResourceManager.GetString("PaintMode_Sprites", resourceCulture);
             }
         }
         
@@ -1705,6 +1750,42 @@ namespace TEdit.Properties {
         public static string tool_paint_brickstyle {
             get {
                 return ResourceManager.GetString("tool_paint_brickstyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile Echo.
+        /// </summary>
+        public static string tool_paint_coating_tile_echo {
+            get {
+                return ResourceManager.GetString("tool_paint_coating_tile_echo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile Illuminant.
+        /// </summary>
+        public static string tool_paint_coating_tile_illuminant {
+            get {
+                return ResourceManager.GetString("tool_paint_coating_tile_illuminant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wall Echo.
+        /// </summary>
+        public static string tool_paint_coating_wall_echo {
+            get {
+                return ResourceManager.GetString("tool_paint_coating_wall_echo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wall Illuminant.
+        /// </summary>
+        public static string tool_paint_coating_wall_illuminant {
+            get {
+                return ResourceManager.GetString("tool_paint_coating_wall_illuminant", resourceCulture);
             }
         }
         

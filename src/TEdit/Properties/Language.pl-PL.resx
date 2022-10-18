@@ -1275,4 +1275,31 @@ Naciśnij spróbuj ponownie aby wybrać nowy folder lub anuluj aby użyć {0} ja
   <data name="messagebox_restartrequired" xml:space="preserve">
     <value>Wymagane ponowne uruchomienie</value>
   </data>
+  <data name="CoatingMode_NoAction" xml:space="preserve">
+    <value>Brak Zmian</value>
+  </data>
+  <data name="CoatingModeAdd" xml:space="preserve">
+    <value>Dodawać</value>
+  </data>
+  <data name="CoatingMode_Remove" xml:space="preserve">
+    <value>Usunąć</value>
+  </data>
+  <data name="tool_paint_coating_wall_echo" xml:space="preserve">
+    <value>Echo ścienne</value>
+  </data>
+  <data name="tool_paint_coating_wall_illuminant" xml:space="preserve">
+    <value>Oświetlacz ścienny</value>
+  </data>
+  <data name="tool_paint_coating_tile_echo" xml:space="preserve">
+    <value>Płytka Echo</value>
+  </data>
+  <data name="tool_paint_coating_tile_illuminant" xml:space="preserve">
+    <value>Płytka Illuminant</value>
+  </data>
+  <data name="PaintMode_Coatings" xml:space="preserve">
+    <value>Powłoka</value>
+  </data>
+  <data name="PaintMode_Sprites" xml:space="preserve">
+    <value>Obraz</value>
+  </data>
 </root>

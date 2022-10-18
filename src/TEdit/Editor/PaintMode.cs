@@ -14,7 +14,9 @@ namespace TEdit.Editor
         [Description("Track")]
         Track,
         [Description("Sprites")]
-        Sprites
+        Sprites,
+        [Description("Coatings")]
+        Coatings
     }
     public enum TrackMode
     {

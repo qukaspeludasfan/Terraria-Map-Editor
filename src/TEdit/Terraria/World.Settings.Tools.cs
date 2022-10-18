@@ -29,6 +29,8 @@ namespace TEdit.Terraria
         private static bool _blueWire;
         private static bool _yellowWire;
 
+        
+
         //  Invoked from World.Settings
         internal static void LoadSettings(IEnumerable<XElement> xmlToolSettings)
         {

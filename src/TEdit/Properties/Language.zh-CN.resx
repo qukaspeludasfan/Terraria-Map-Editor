@@ -1275,4 +1275,31 @@
   <data name="messagebox_restartrequired" xml:space="preserve">
     <value>需要重新启动</value>
   </data>
+  <data name="CoatingMode_NoAction" xml:space="preserve">
+    <value>没变</value>
+  </data>
+  <data name="CoatingModeAdd" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="CoatingMode_Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="tool_paint_coating_wall_echo" xml:space="preserve">
+    <value>墙壁回声</value>
+  </data>
+  <data name="tool_paint_coating_wall_illuminant" xml:space="preserve">
+    <value>墙面光源</value>
+  </data>
+  <data name="tool_paint_coating_tile_echo" xml:space="preserve">
+    <value>磁贴回声</value>
+  </data>
+  <data name="tool_paint_coating_tile_illuminant" xml:space="preserve">
+    <value>瓷砖光源</value>
+  </data>
+  <data name="PaintMode_Coatings" xml:space="preserve">
+    <value>衣</value>
+  </data>
+  <data name="PaintMode_Sprites" xml:space="preserve">
+    <value>图像</value>
+  </data>
 </root>

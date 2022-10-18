@@ -67,6 +67,14 @@
                 </DataTrigger>
             </Style.Triggers>
         </Style>
+        <Style TargetType="{x:Type GroupBox}" x:Key="CoatingVisibleStyle" BasedOn="{StaticResource {x:Type GroupBox}}">
+            <Setter Property="Visibility" Value="Collapsed" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding TilePicker.PaintMode}" Value="Coatings">
+                    <Setter Property="Visibility" Value="Visible" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
         <Style TargetType="{x:Type GroupBox}" x:Key="WireStyle" BasedOn="{StaticResource {x:Type GroupBox}}">
             <Setter Property="Visibility" Value="Collapsed" />
             <Style.Triggers>
@@ -209,6 +217,18 @@
                           SelectedValue="{Binding Path=TilePicker.WallColor, Mode=TwoWay}"
                           SelectedValuePath="Id" Width="140" />
                     </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Coating" Style="{StaticResource CoatingVisibleStyle}">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Vertical">
+                        <CheckBox Checked="{Binding TilePicker.TileCoatingEcho}" Content="{x:Static p:Language.tool_paint_coating_tile_echo}" Width="75" VerticalAlignment="Center" />
+                        <CheckBox Checked="{Binding TilePicker.TileCoatingIlluminant}" Content="{x:Static p:Language.tool_paint_coating_tile_illuminant}" Width="75" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <CheckBox Checked="{Binding TilePicker.WallCoatingEcho}" Content="{x:Static p:Language.tool_paint_coating_wall_echo}" Width="75" VerticalAlignment="Center" />
+                        <CheckBox Checked="{Binding TilePicker.WallCoatingIlluminant}" Content="{x:Static p:Language.tool_paint_coating_wall_illuminant}" Width="75" VerticalAlignment="Center" />
+                </StackPanel>
                 </StackPanel>
             </GroupBox>
             <GroupBox Header="Wire" Style="{StaticResource WireStyle}">

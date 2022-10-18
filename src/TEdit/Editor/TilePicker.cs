@@ -2,6 +2,7 @@
 using GalaSoft.MvvmLight;
 using TEdit.Terraria;
 using System.Windows.Input;
+using System;
 
 namespace TEdit.Editor
 {
@@ -17,6 +18,16 @@ namespace TEdit.Editor
         RampLeft = 1,
         [Description("Ramp Right")]
         RampRight = 2
+    }
+
+    public enum CoatingMode
+    {
+        [Description("No Change")]
+        NoAction,
+        [Description("Add")]
+        Add,
+        [Description("Remove")]
+        Remove
     }
 
     public class TilePicker : ObservableObject
@@ -46,6 +57,33 @@ namespace TEdit.Editor
         private bool _wireReplaceBlue = false;
         private bool _wireReplaceGreen = false;
         private bool _wireReplaceYellow = false;
+
+        private bool _WallCoatingEcho = false;
+        private bool _WallCoatingIlluminant = false;
+        private bool _TileCoatingEcho = false;
+        private bool _TileCoatingIlluminant = false;
+
+        public bool TileCoatingIlluminant
+        {
+            get { return _TileCoatingIlluminant; }
+            set { Set(nameof(TileCoatingIlluminant), ref _TileCoatingIlluminant, value); }
+        }
+        public bool TileCoatingEcho
+        {
+            get { return _TileCoatingEcho; }
+            set { Set(nameof(TileCoatingEcho), ref _TileCoatingEcho, value); }
+        }
+
+        public bool WallCoatingIlluminant
+        {
+            get { return _WallCoatingIlluminant; }
+            set { Set(nameof(WallCoatingIlluminant), ref _WallCoatingIlluminant, value); }
+        }
+        public bool WallCoatingEcho
+        {
+            get { return _WallCoatingEcho; }
+            set { Set(nameof(WallCoatingEcho), ref _WallCoatingEcho, value); }
+        }
 
         private BrickStyle _brickStyle = BrickStyle.Full;
         public BrickStyle BrickStyle
